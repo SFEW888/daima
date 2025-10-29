@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\vs 2022\daima\test_25_10_10\test_25_10_10\源.cpp(35,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  test_25_10_10.vcxproj -> D:\vs 2022\daima\test_25_10_10\x64\Debug\test_25_10_10.exe

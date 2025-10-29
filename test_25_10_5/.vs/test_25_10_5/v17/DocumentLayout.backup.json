@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs 2022\\daima\\test_25_10_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23B81BC6-3D50-49C7-9E6E-D58FEBF1B43C}|test_25_10_5\\test_25_10_5.vcxproj|D:\\vs 2022\\daima\\test_25_10_5\\test_25_10_5\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{23B81BC6-3D50-49C7-9E6E-D58FEBF1B43C}|test_25_10_5\\test_25_10_5.vcxproj|solutionrelative:test_25_10_5\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "D:\\vs 2022\\daima\\test_25_10_5\\test_25_10_5\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "test_25_10_5\\\u6E90.cpp",
+              "ToolTip": "D:\\vs 2022\\daima\\test_25_10_5\\test_25_10_5\\\u6E90.cpp",
+              "RelativeToolTip": "test_25_10_5\\\u6E90.cpp",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwG8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-05T01:08:06.661Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

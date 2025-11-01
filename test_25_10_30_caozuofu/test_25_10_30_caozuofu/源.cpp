@@ -3,35 +3,35 @@
 
 
 
-////实现两个整数的交换
-//int main()
-//{
-//	int a = 3;
-//	int b = 5;
-//	int c = 0;
-//	printf("交换前:a=%d,b=%d\n", a, b);
-//	c = a;
-//	a = b;
-//	b = c;
-//	printf("交换后:a=%d,b=%d\n", a, b);
-//	return 0;
-//}
+//实现两个整数的交换
+int main()
+{
+	int a = 3;
+	int b = 5;
+	int c = 0;
+	printf("交换前:a=%d,b=%d\n", a, b);
+	c = a;
+	a = b;
+	b = c;
+	printf("交换后:a=%d,b=%d\n", a, b);
+	return 0;
+}
 
 
-////如果不用第三变量
-//int main()
-//{
-//	int a = 3;
-//	int b = 5;
-//	printf("交换前:a=%d,b=%d\n", a, b);
-//	a = a + b;
-//	b = a - b;
-//	a = a - b;
-//	printf("交换后:a=%d,b=%d\n", a, b);
-//	return 0;
-//}
-////但是这样会有一个问题，如果a和b很大，但没超过整形的大小，但加起来超过整形表达的最大值
-////造成溢出，无法翻译,只能解决部分问题
+//如果不用第三变量
+int main()
+{
+	int a = 3;
+	int b = 5;
+	printf("交换前:a=%d,b=%d\n", a, b);
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	printf("交换后:a=%d,b=%d\n", a, b);
+	return 0;
+}
+//但是这样会有一个问题，如果a和b很大，但没超过整形的大小，但加起来超过整形表达的最大值
+//造成溢出，无法翻译,只能解决部分问题
 
 
 int main()
@@ -48,4 +48,36 @@ int main()
 		printf("%d\n", count);
 		return 0;
 	}
+}
+
+
+
+int main()
+{
+	int num = -1;
+	int i = 0;
+	int count = 0;
+	for (i = 0; i < 32; i++)
+	{
+		if (num & (1 << i))
+			count++;
+	}
+	printf("二进制中1的个数 = %d\n", count);
+	return 0;
+}
+
+
+
+int main()
+{
+	int num = 1;
+	int i = 0;
+	int count = 0;
+	while (num)
+	{
+		count++;
+		num = num & (num - 1);
+	}
+	printf("二进制中1的个数 = %d\n", count);
+	return 0;
 }
